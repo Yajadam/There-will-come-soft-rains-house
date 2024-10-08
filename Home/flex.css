@@ -1,21 +1,13 @@
 body{
     background-color: oldlace;
-}
-.navbar ul{
-    list-style: none;
-    background-color: rgb(146, 124, 96);
-    
-
-}
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display:block;
-    text-align:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:10px;
+    color: rgb(0, 0, 0)
 }
 .top-image{
-    background-image: url(Futurehouse.png);
+    background-image: url(Future\ house.png);
     background-position: center;
     height: 800px;
     background-size: cover;
@@ -24,7 +16,7 @@ body{
     align-items: center;
 }
 .top-image p{
-    background-color: rgba(0, 0, 0, 0.701);
+    background-color: rgb(24, 7, 7);
     border-radius: 10px;
     padding: 10px;
     text-align: center;
@@ -32,15 +24,57 @@ body{
 }
 .text-top{
     width: 50%;
+    font-size: x-large;
+    color: aliceblue;
 }
+
+.navbar ul{ 
+    list-style-type: none;
+    background-color: rgb(172, 151, 123);
+   padding: 0px;
+   margin: 0px;
+   overflow: hidden;
+    
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display:block;
+    text-align: center;
+    float: left;
+}
+.navbar a:hover{
+    background-color: rgb(91, 79, 57);
+}
+.navbar li{
+    text-align: center;
+    flex-direction: row;
+}
+
 .buttons-hub{
     display: flex;
     width: auto;
     align-content: end;
     flex-direction: row;
-    
+    /* work damn you */
+    /* align-content: space-between; */
+    /* yeah no idea why this wont work */
 }
-
+.button{
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    align-content: end;
+    flex-direction: row;
+}
 h2{
     font-size: 20px;
     text-align: center;
@@ -49,7 +83,6 @@ h2{
     display: flex;
     justify-content: center;
     width: 100%;
-    /* margin-left: 50px; */
     margin-right: 50px;
 
 }
@@ -59,7 +92,7 @@ img{
 }
 .img-and-text p{
     width: 30%;
-    background-color: black;
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
 
@@ -67,13 +100,14 @@ img{
 .lil-section{
     width: 100%;
     margin-top: 30px;
-    background-color: rgba(7, 28, 46, 0.471);
+    background-color: rgb(39, 6, 6);
     padding: 10px;
     border-radius: 10px;
     text-align: center;
 }
 .lil-section h3{
     font-size: 30px;
+    text-align: center;
 }
 footer{
     text-align: center;
