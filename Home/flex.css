@@ -1,12 +1,21 @@
 body{
-    background-color: rgba(0, 0, 0, 0.189);
-    color: rgb(32, 2, 2);
-    /* margin: 0; */
-    /* padding: 0; */
-    font-family: 'Times New Roman', Times, serif;
+    background-color: oldlace;
+}
+.navbar ul{
+    list-style: none;
+    background-color: rgb(146, 124, 96);
+    
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align:center;
 }
 .top-image{
-    background-image: url(Home-page/Luxury.jpg);
+    background-image: url(Futurehouse.png);
     background-position: center;
     height: 800px;
     background-size: cover;
@@ -29,23 +38,9 @@ body{
     width: auto;
     align-content: end;
     flex-direction: row;
-    /* work damn you */
-    /* align-content: space-between; */
-    /* yeah no idea why this wont work */
+    
 }
-.button{
-    margin-top: 10px;
-    width: 200px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    /* justify-content: center; */
-    align-items: center;
-    text-align: center;
-    background-color: black;
-    align-content: end;
-    flex-direction: row;
-}
+
 h2{
     font-size: 20px;
     text-align: center;
