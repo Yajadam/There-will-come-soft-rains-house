@@ -1,4 +1,27 @@
+
 body{
     flex-direction: row;
     justify-content: center;
+    background-color: oldlace;
+}
+.navbar ul{ 
+    list-style-type: none;
+    background-color: rgb(172, 151, 123);
+   padding: 0px;
+   margin: 0px;
+   overflow:hidden;
+    
+
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px;
+    display:block;
+    text-align: center;
+    float: center;
+}
+.Home-class{
+    flex-direction: row;
+
 }

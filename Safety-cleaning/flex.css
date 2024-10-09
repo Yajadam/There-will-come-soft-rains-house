@@ -7,6 +7,9 @@
     
 
 }
+.navbar a:hover{
+    background-color: rgb(91, 79, 57);
+}
 .navbar a{
     color: white;
     text-decoration: none;
@@ -14,4 +17,7 @@
     display:block;
     text-align: center;
     float: left;
+}
+.navbar a:hover{
+    background-color: rgb(91, 79, 57);
 }
