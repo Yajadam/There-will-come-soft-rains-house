@@ -18,6 +18,16 @@
     text-align: center;
     float: left;
 }
-.navbar a:hover{
-    background-color: rgb(91, 79, 57);
+.Mouse-class{
+    display: inline-flex;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
 }

@@ -45,6 +45,9 @@ body{
     text-align: center;
     float: left;
 }
+.navbar a:hover{
+    background-color: rgb(91, 79, 57);
+}
 .navbar li{
     text-align: center;
     flex-direction: row;
@@ -103,7 +106,7 @@ img{
     text-align: center;
 }
 .lil-section h3{
-    font-size: 30px;
+    font-size: xx-large;
     text-align: center;
 }
 footer{

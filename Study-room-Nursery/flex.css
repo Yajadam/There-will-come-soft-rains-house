@@ -7,6 +7,9 @@
     
 
 }
+.navbar a:hover{
+    background-color: rgb(91, 79, 57);
+}
 .navbar a{
     color: white;
     text-decoration: none;
@@ -16,5 +19,24 @@
     float: left;
 }
 .Chair-class{
-   
+   flex-direction: row;
+   justify-content: flex-end;
+
+}
+.Wave-class{
+    flex-direction: row;
+    text-align: center;
+
+}
+.text-top{
+    font-size: x-large;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
 }
