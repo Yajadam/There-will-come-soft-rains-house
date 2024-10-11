@@ -46,3 +46,10 @@ p{
 .clm.full {
     width: 100%;
 }
+.first{
+    order: 0;
+}
+.second{
+    order: -1;
+
+}

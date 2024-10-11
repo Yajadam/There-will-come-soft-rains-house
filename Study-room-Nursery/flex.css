@@ -40,3 +40,18 @@ h2{
 h3{
     text-align: center;
 }
+.row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 1rem auto;
+    flex-flow: row wrap;
+}
+
+.clm.half {
+    width: 48%;
+}
+
+.clm.full {
+    width: 100%;
+}
